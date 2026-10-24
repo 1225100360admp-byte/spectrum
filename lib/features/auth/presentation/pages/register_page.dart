@@ -179,7 +179,7 @@ class _RegisterPageState extends State<RegisterPage> {
                   const SizedBox(height: 16),
                   ListenableBuilder(
                     listenable: _auth,
-                    builder: (_, __) => GradientButton(
+                    builder: (_, _) => GradientButton(
                       label: 'Crear cuenta',
                       isLoading: _auth.isLoading,
                       onPressed: _submit,

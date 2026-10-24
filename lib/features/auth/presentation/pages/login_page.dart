@@ -109,7 +109,7 @@ class _LoginPageState extends State<LoginPage> {
                   const SizedBox(height: 28),
                   ListenableBuilder(
                     listenable: _auth,
-                    builder: (_, __) => GradientButton(
+                    builder: (_, _) => GradientButton(
                       label: 'Iniciar sesión',
                       isLoading: _auth.isLoading,
                       onPressed: _submit,

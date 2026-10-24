@@ -25,8 +25,8 @@ class AppRouter {
     return PageRouteBuilder<void>(
       settings: settings,
       transitionDuration: const Duration(milliseconds: 600),
-      pageBuilder: (_, __, ___) => page,
-      transitionsBuilder: (_, animation, __, child) =>
+      pageBuilder: (_, _, _) => page,
+      transitionsBuilder: (_, animation, _, child) =>
           FadeTransition(opacity: animation, child: child),
     );
   }

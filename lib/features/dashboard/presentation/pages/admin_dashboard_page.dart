@@ -95,7 +95,7 @@ class _AdminDashboardPageState extends State<AdminDashboardPage> {
                     : ListView.separated(
                         padding: const EdgeInsets.only(bottom: 16),
                         itemCount: _users.length,
-                        separatorBuilder: (_, __) => const SizedBox(height: 10),
+                        separatorBuilder: (_, _) => const SizedBox(height: 10),
                         itemBuilder: (_, i) {
                           final user = _users[i];
                           return Container(

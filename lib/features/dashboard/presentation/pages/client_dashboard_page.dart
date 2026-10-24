@@ -106,7 +106,7 @@ class _ClientDashboardPageState extends State<ClientDashboardPage> {
                     : ListView.separated(
                         padding: const EdgeInsets.only(bottom: 16),
                         itemCount: items.length,
-                        separatorBuilder: (_, __) => const SizedBox(height: 12),
+                        separatorBuilder: (_, _) => const SizedBox(height: 12),
                         itemBuilder: (_, i) => _MatchCard(
                           match: items[i],
                           onTap: () => Navigator.of(context).push(

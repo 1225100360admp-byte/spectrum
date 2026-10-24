@@ -52,7 +52,7 @@ class TriviaListPage extends StatelessWidget {
                         : ListView.separated(
                             padding: const EdgeInsets.only(bottom: 16),
                             itemCount: items.length,
-                            separatorBuilder: (_, __) =>
+                            separatorBuilder: (_, _) =>
                                 const SizedBox(height: 12),
                             itemBuilder: (_, i) => _TriviaCard(
                               key: ValueKey(items[i].id),

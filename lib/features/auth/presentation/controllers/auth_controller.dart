@@ -8,12 +8,10 @@ import '../../domain/usecases/auth_usecases.dart';
 /// Estado de autenticación. Las pantallas lo escuchan con ListenableBuilder.
 class AuthController extends ChangeNotifier {
   AuthController({
-    required LoginUseCase login,
+    required this._login,
     required RegisterUseCase register,
-    required LogoutUseCase logout,
-  })  : _login = login,
-        _register = register,
-        _logout = logout;
+    required this._logout,
+  })  : _register = register;
 
   final LoginUseCase _login;
   final RegisterUseCase _register;

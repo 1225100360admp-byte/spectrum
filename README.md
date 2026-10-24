@@ -26,7 +26,7 @@ El rol se elige al crear la cuenta.
 
 ```bash
 # 1. Clonar el repositorio
-git clone [URL_DEL_REPOSITORIO]
+git clone [(https://github.com/1225100360admp-byte/spectrum.git)]
 cd spectrum
 
 # 2. Instalar dependencias
